@@ -1,8 +1,8 @@
 # My Projects & Assignments
-[Portfolio Website](https://rooghz.github.io)
+1. [Portfolio Website](https://rooghz.github.io)
 
-[Crypto Tracker](https://rooghz.github.io/Crypto_Tracker)
+2. [Crypto Tracker](https://rooghz.github.io/Crypto_Tracker)
 
-[Table Assignment](https://rooghz.github.io/Table_Assignment)
+3. [Table Assignment](https://rooghz.github.io/Table_Assignment)
 
-[Blog Design](https://rooghz.github.io/Blog_Design)
+4. [Blog Design](https://rooghz.github.io/Blog_Design)
