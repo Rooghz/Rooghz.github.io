@@ -4,13 +4,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #DDDDDD !important;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);        
     padding-top: 200px;
 }
 
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timer {
