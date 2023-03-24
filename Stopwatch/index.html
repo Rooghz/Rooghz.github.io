@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch - Ayan Saha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container mt-5">
+        <h2>Stopwatch</h2>
+
+    <div class="container mt-5">
+        <div class="timer">
+            <span id="hr">00</span>
+            <span class="txt">:</span>
+            <span id="min">00</span>
+            <span class="txt">:</span>
+            <span id="sec">00</span>
+            <span class="txt">:</span>
+            <span id="count">00</span>
+        </div>
+        <div class="btn-group btn-group-toggle" id="button">
+            <button type="button" class="btn btn-success" onclick="start()">Start</button>
+            <button type="button" class="btn btn-danger" onclick="pause()">Pause</button>
+            <button type="button" class="btn btn-warning" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</body>
+</html>
