@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links {
+    color: #666;
+    font-size: .9rem;
+    cursor: pointer;
+    font-family: "Inter",serif;
+    font-weight: 400;
+}
+
+.navbar-links:hover {
+    color: #387ed1;
+}
+
+.invest-text{
+    margin: 10px 0;
+    font-family: "Inter",serif;
+    font-size: 2.75rem;
+    color: #424242;
+
+}
+.invest{
+    margin: 8px 0;
+    font-family: "Inter",serif;
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+.button {
+    background-color: #387ed1;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1px solid rgba(0,0,0,0) !important;
+    color: #fff !important;
+    padding: 10px 30px;
+}
+
+hr.custom-hr {
+    opacity: 0.1;
+    color: #808080;
+    border: 1px solid;
+  }
