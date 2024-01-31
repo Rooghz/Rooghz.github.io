@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV Stream</title>
+    <style>
+        #buttonOne {
+            margin: 5px; 
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: black;
+            color: #45a049;
+            border: 5px solid #45a049;
+            border-radius: 1px
+        }
+
+        #buttonOne:hover {
+            background-color: red;
+        }
+        #buttonTwo {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: black;
+            color: red;
+            border: 5px solid red;
+            border-radius: 1px;
+        }
+
+        #buttonTwo:hover {
+            background-color: #45a049;
+        }
+        #buttonThree {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: black;
+            color: #45a049;
+            border: 5px solid #45a049;
+            border-radius: 1px
+        }
+
+        #buttonThree:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <img src="{{ url_for('video_feed') }}" width="640" height="480" />
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <button id="buttonOne">Button 1</button>
+        <button id="buttonTwo">Button 2</button>
+        <button id="buttonThree">Button 3</button>
+    </div>
+    </div>
+
+    <script>
+        document.getElementById('buttonOne').addEventListener('click', function () {
+            alert('buttonOne clicked!');
+        });
+
+        document.getElementById('buttonTwo').addEventListener('click', function () {
+            alert('buttonTwo clicked!');
+        });
+
+        document.getElementById('buttonThree').addEventListener('click', function () {
+            alert('buttonThree clicked!');
+        });
+    </script>
+</body>
+</html>
